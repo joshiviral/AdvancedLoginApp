@@ -14,7 +14,7 @@ buildscript {
         // in the individual module build.gradle files
     }
     dependencies {
-
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.0.0'
     }
 }
 

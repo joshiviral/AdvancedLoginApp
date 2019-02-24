@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+
         android:layout_width="250dp"
         android:layout_height="250dp"
         android:layout_above="@id/etx_username"
@@ -83,24 +84,25 @@
 
 
         <RelativeLayout
-            android:layout_width="220dp"
+            android:layout_width="230dp"
             android:layout_height="70dp"
-            android:drawableLeft="@drawable/facebook"
-            android:layout_marginBottom="10dp">
+            android:layout_marginBottom="10dp"
+            android:drawableLeft="@drawable/facebook">
 
             <ImageView
                 android:id="@+id/img_facebook"
-                android:layout_marginTop="5dp"
                 android:layout_width="45dp"
                 android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/facebook" />
+
             <TextView
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="10dp"
                 android:layout_width="180dp"
                 android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/img_facebook"
-                android:hint="Sign In Through Facebook"/>
+                android:hint="Sign In Through Facebook" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
@@ -126,17 +128,18 @@
 
             <ImageView
                 android:id="@+id/img_gmail"
-                android:layout_marginTop="5dp"
                 android:layout_width="45dp"
                 android:layout_height="40dp"
+                android:layout_marginTop="5dp"
                 android:background="@drawable/gmail" />
+
             <TextView
-                android:layout_centerInParent="true"
-                android:layout_marginLeft="10dp"
                 android:layout_width="180dp"
                 android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="10dp"
                 android:layout_toRightOf="@id/img_gmail"
-                android:hint="Sign In Through Gmail"/>
+                android:hint="Sign In Through Gmail" />
         </RelativeLayout>
 
     </android.support.v7.widget.CardView>
